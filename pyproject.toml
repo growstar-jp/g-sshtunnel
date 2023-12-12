@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "g-sshtunnel"
+version = "0.1.0"
+description = ""
+authors = ["y-sugaizumi <y-sugaizumi@growstar-jp.com>"]
+readme = "README.md"
+packages = [{include = "g_sshtunnel"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sshtunnel = "^0.4.0"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
